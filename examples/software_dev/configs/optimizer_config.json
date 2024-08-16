@@ -17,7 +17,7 @@
             "API_KEY": "",
             "API_BASE": "",
             "temperature": 0.3,
-            "model": "gpt-4-turbo-2024-04-09",
+            "model": "gpt-4o-2024-08-06",
             "SAVE_LOGS": false,
             "log_path": "logs/trainer_god"
         },
@@ -52,7 +52,7 @@
             "API_KEY": "",
             "API_BASE": "",
             "temperature": 0.3,
-            "model": "gpt-4-turbo-2024-04-09",
+            "model": "gpt-4o-2024-08-06",
             "SAVE_LOGS": false,
             "log_path": "logs/trainer_god"
         },
@@ -93,7 +93,7 @@
             "API_KEY": "",
             "API_BASE": "",
             "temperature": 0.3,
-            "model": "gpt-4-turbo-2024-04-09",
+            "model": "gpt-4o-2024-08-06",
             "SAVE_LOGS": false,
             "log_path": "logs/trainer_god"
         },
@@ -140,7 +140,7 @@
             "API_KEY": "",
             "API_BASE": "",
             "temperature": 0.3,
-            "model": "gpt-4-turbo-2024-04-09",
+            "model": "gpt-4o-2024-08-06",
             "SAVE_LOGS": false,
             "log_path": "logs/trainer_god"
         },

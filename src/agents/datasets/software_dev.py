@@ -82,7 +82,7 @@ Analyze the following project code, output the  in the format of <score>s</score
                 score_outputs = completion_with_backoff(
                     messages=messages,
                     n=5,
-                    model="gpt-4-turbo-2024-04-09",
+                    model="gpt-4o-2024-08-06",
                     api_key="",
                     base_url="",
                 )

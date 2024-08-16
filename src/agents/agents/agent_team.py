@@ -45,7 +45,7 @@ class AgentTeamConfig(Config):
     ):
         llm_config = {
             "LLM_type": "OpenAI",
-            "model": "gpt-4-turbo-2024-04-09",
+            "model": "gpt-4o-2024-08-06",
             "temperature": 0.3,
             "log_path": "logs/generate_config/agent_team",
             "ACTIVE_MODE": True,

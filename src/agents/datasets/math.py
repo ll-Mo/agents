@@ -137,7 +137,7 @@ Now, please give your verdict(You should first show your thinking of your verifi
             try:
                 result_outputs = (
                     completion_with_backoff(
-                        messages=messages, model="gpt-4-turbo-2024-04-09"
+                        messages=messages, model="gpt-4o-2024-08-06"
                     )
                     .choices[0]
                     .message.content
@@ -184,7 +184,7 @@ Now, please give your verdict(You should first show your thinking of your verifi
             try:
                 result_outputs = (
                     completion_with_backoff(
-                        messages=messages, model="gpt-4-turbo-2024-04-09"
+                        messages=messages, model="gpt-4o-2024-08-06"
                     )
                     .choices[0]
                     .message.content

@@ -54,7 +54,7 @@ class LLMConfig(Config):
         self._validate_config()
 
         self.LLM_type: str = self.config_dict.get("LLM_type", "OpenAI")
-        self.model: str = self.config_dict.get("model", "gpt-4-turbo-2024-04-09")
+        self.model: str = self.config_dict.get("model", "gpt-4o-2024-08-06")
         self.temperature: float = self.config_dict.get("temperature", 0.3)
         self.log_path: str = self.config_dict.get("log_path", "logs")
         self.API_KEY: str = self.config_dict.get(

@@ -19,7 +19,7 @@
                     "OPENAI_API_KEY": "",
                     "OPENAI_BASE_URL": "",
                     "temperature": 0.3,
-                    "model": "gpt-4-turbo-2024-04-09",
+                    "model": "gpt-4o-2024-08-06",
                     "log_path": "logs/oyx",
                     "SAVE_LOGS": true
                 },
@@ -45,7 +45,7 @@
                     "OPENAI_API_KEY": "",
                     "OPENAI_BASE_URL": "",
                     "temperature": 0.3,
-                    "model": "gpt-4-turbo-2024-04-09",
+                    "model": "gpt-4o-2024-08-06",
                     "log_path": "logs/oyx",
                     "SAVE_LOGS": true
                 },

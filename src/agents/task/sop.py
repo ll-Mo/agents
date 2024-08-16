@@ -48,7 +48,7 @@ class SOPConfig(Config):
     def generate_config(cls, query, task_description):
         llm_config = {
             "LLM_type": "OpenAI",
-            "model": "gpt-4-turbo-2024-04-09",
+            "model": "gpt-4o-2024-08-06",
             "temperature": 0.3,
             "log_path": "logs/generate_config/sop",
             "ACTIVE_MODE": True,
@@ -172,7 +172,7 @@ class SOP:
 
         llm_config = {
             "LLM_type": "OpenAI",
-            "model": "gpt-4-turbo-2024-04-09",
+            "model": "gpt-4o-2024-08-06",
             "temperature": 0.3,
             "log_path": "logs/sop",
             "ACTIVE_MODE": True,
