@@ -16,6 +16,7 @@
 """The solution module contains the Solution class, which is the main class for the solution of a task."""
 import copy
 import os
+import json
 from typing import Union
 
 from .task import TaskConfig, Task
@@ -39,6 +40,10 @@ class SolutionConfig(Config):
         self.sop = self.config_dict["sop"]
 
     @classmethod
+    def save(self, file_path):
+        with open(file_path, 'w') as f:
+            json.dump(self.__dict__, f, indent=2)
+            
     def generate_config(cls, query):
         task_config = TaskConfig.generate_config(query)
         sop_config = SOPConfig.generate_config(query, task_config.task_description)
